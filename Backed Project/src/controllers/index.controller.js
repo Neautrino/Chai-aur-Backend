@@ -1,3 +1,3 @@
-import {registerUser } from "./user.controller.js"
+import {registerUser, loginUser, logoutUser} from "./user.controller.js"
 
-export {registerUser}
+export {registerUser, loginUser, logoutUser}
