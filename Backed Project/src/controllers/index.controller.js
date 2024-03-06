@@ -6,7 +6,9 @@ import {
     changeCurrentPassword , 
     getCurrentUser ,
     updateUserAvatar,
-    updateUserCoverImage
+    updateUserCoverImage,
+    getUserChannelProfile,
+    getWatchHistory
 } from "./user.controller.js"
 
 export {
@@ -17,5 +19,7 @@ export {
     changeCurrentPassword , 
     getCurrentUser ,
     updateUserAvatar,
-    updateUserCoverImage
+    updateUserCoverImage,
+    getUserChannelProfile,
+    getWatchHistory
 }
